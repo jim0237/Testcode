@@ -8,7 +8,9 @@ void setup() {
 }
 
 void loop() {
-  Serial.println("Hello World");
+  Serial.println(0x7e);
+  Serial.println(34);
+  Serial.println(0x7d);
   delay(1000);
 
 }
